@@ -1,0 +1,157 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  background-color: #3b3a3a;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  max-height: 200px;
+  justify-content: flex-start;
+
+}
+
+nav .array-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding:50px;
+  flex-grow: 1;
+}
+
+nav .array-inputs #a_size {
+  padding: 20px;
+}
+
+nav .array-inputs #a_speed {
+  padding: 20px;
+}
+
+nav .array-inputs #a_generate {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+nav .array-inputs #a_generate:hover {
+  cursor: pointer;
+}
+
+
+
+nav .header_right {
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 5;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+
+nav .header_right .algos {
+  display: flex;
+}
+
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: x-large;
+  padding:20px;
+}
+
+nav .header_right .algos button:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+}
+
+section #Info_Cont1{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+section h3{
+  margin-bottom: 20px;
+}
+
+section #Time_Complexity_Types_Container{
+  display: flex;
+  flex-direction: column;
+}
+
+section .Complexity_Containers .Pair_Definitions{
+  margin: 10px;
+}
+
+
+
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+section #Info_Cont2{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hide {
+  display: none;
+}
